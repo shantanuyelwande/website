@@ -14,7 +14,7 @@ public class test {
 	WebDriver driver;
 
 	public void hello() {
-		System.setProperty("webdriver.chrome.driver", "D://chromedriver.exe");/// home/ubuntu/chromedriver
+		System.setProperty("webdriver.chrome.driver", "/home/ubuntu/chromedriver");
 		ChromeOptions options = new ChromeOptions();
 		options.addArguments("--headless");
 
